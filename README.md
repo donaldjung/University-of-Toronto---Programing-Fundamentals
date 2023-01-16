@@ -4,9 +4,7 @@
 # code from learnings 
 # University of Toronto Assingment 1 - Learn to program - coding time / time zones / converting time seconds, minutes, hours
 # Module below
-# Github test push
-# github test pull
-# github test2 push
+
 
 def seconds_difference(time_1, time_2):
     """ (number, number) -> number
@@ -152,4 +150,3 @@ def time_from_utc(utc_offset, time):
     return to_24_hour_clock(time + utc_offset)
 
 
-# github push test2
