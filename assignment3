@@ -95,7 +95,7 @@ def insert_sequence(dna1, dna2, index):
     >>> insert_sequence('CCGG, 'AT', 2)
     'CCATGG'
     """
-    newDNA = dna[:index] + dna2 + dna[index:]
+    newDNA = dna1[:index] + dna2 + dna1[index:]
     return newDNA
 def get_complement(dna):
     """ (str) -> str
